@@ -1,4 +1,4 @@
-# basi/grafana
+# lion7/grafana, forked from basi/grafana where all credits go
 
 Grafana with some limited automated data sources creation.
 
@@ -22,7 +22,7 @@ docker \
   -e "ELASTICSEARCH_ENDPOINT=http://elasticsearch:9090" \
   -e "ELASTICSEARCH_USER=readuser" \
   -e "ELASTICSEARCH_PASSWORD=myelasticpass" \
-  basi/grafana:latest
+  lion7/grafana:latest
 ```
 
 You can launch it as a swarm service:
@@ -38,7 +38,7 @@ docker\
   -e "ELASTICSEARCH_ENDPOINT=http://elasticsearch:9090" \
   -e "ELASTICSEARCH_USER=readuser" \
   -e "ELASTICSEARCH_PASSWORD=myelasticpass" \
-  basi/grafana:latest
+  lion7/grafana:latest
 
 ```
 
